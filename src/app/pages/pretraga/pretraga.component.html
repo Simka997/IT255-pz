@@ -1,0 +1,25 @@
+<div class = "pretraga_forma">
+  <form action="" method="get" id="boxSearch" accept-charset="utf-8">          
+    <!-- <input type="text" name="q" class="boxSearchInput"> -->
+    <input type="text" name="cvet" [(ngModel)]="cvetN" >
+    <input type="image" align="absmiddle" title="Pretraga" src="https://icon-icons.com/icons2/621/PNG/32/magnifier_icon-icons.com_56922.png">
+  </form>
+</div>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Sifra</th>
+      <th scope="col">Naziv</th>
+      <th scope="col">Opis</th>
+      <th scope="col">Cena</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cvet of cvece|pretraga:cvetN" >
+      <td >{{cvet.sifra}}</td>
+      <td >{{ cvet.naziv}}</td>
+      <td >{{ cvet.opis}}</td>
+      <td >{{ cvet.cena}}</td>
+    </tr>
+  </tbody>
+</table>

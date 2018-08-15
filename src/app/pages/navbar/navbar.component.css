@@ -3,7 +3,7 @@ footer {
     
 }
 .bg-light{
-    background-image: url("../app/pages/navbar/pozadinska.jpg"); 
+    background-image:  url("pozadinska.jpg");
     padding: 22px;
 }
 .nav-item:hover{

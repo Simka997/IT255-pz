@@ -1,0 +1,37 @@
+.uvod{
+    text-align: justify;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#naslovstrane span{
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: small;
+}
+.uvod #prvi {
+    font-weight: bold;
+}
+#justify{
+    text-align: justify;
+}
+#bj{
+    font-weight: bold; 
+    text-align: justify;
+}
+.container {
+    width: 750px;
+}
+.payment img {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.payment .col-md-2, .payment .col-md-12 {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-2 {
+    width: 16.66666667%;
+}

@@ -1,0 +1,38 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+  <a class="navbar-brand" href="#"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!--Sta ima-->
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+        <li class="nav-item" *ngIf="isLogin">
+            <a class="nav-link" routerLink="../pocetna">Aranžmani <span class="sr-only">(current)</span> </a>
+        </li>
+        <li class="nav-item" *ngIf="isAdmin">
+          <a class="nav-link"  routerLink="../dodajcvet">Dodaj cvet</a>
+        </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="../o nama">O nama </a>
+      </li>        
+      <li class="nav-item">
+        <a class="nav-link" routerLink="../dostava">Dostava cveća</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  routerLink="../lokacija">Lokacija</a>
+      </li>
+      <li class="nav-item"  *ngIf="!isLogin  && !isAdmin ">
+        <a class="nav-link"  routerLink="../registrujse">
+          <img src="//cvecara-online-hrd.appspot.com/images/login.png" alt="">Registuj se</a>
+      </li>
+      <li class="nav-item"  *ngIf="!isLogin  && !isAdmin ">
+        <a  class="nav-link" routerLink="../prijavise">
+          <img src="//cvecara-online-hrd.appspot.com/images/login.png" alt=""> Prijavi se</a>
+      </li>
+      <li class="nav-item link" *ngIf="isLogin">
+        <a class="nav-link" routerLink="../pocetna" (click)="logOut()" routerLinkActive=" ">Izloguj se</a>  
+      </li>
+    </ul>
+  </div>
+</nav>

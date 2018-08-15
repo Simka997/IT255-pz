@@ -1,20 +1,39 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<header>
+    <app-navbar></app-navbar>
+</header>
+<div id="pretraga_icons">
+    <app-pretraga></app-pretraga>
+    <div class="clearfix top-bar">
+      <div class="drustvene_mreze right">
+        <ul class="social-icons clearfix">
+          <li class="linked-in">
+            <a href="https://feeds.feedburner.com/Cvecara-online-CvecaraBeogradCvecaraNoviSadCvecaraNis" title="Cvjecara Sarajevo RSS feed"
+              target="_blank"></a>
+          </li>
+          <li class="twitter">
+            <a href="https://twitter.com/#!/cvecara" title=" Twitter " target="_blank"></a>
+          </li>
+          <li class="facebook">
+            <a href="https://www.facebook.com/onlinecvecara" title="Facebook" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+<!--centralni deo za šaltanje-->
+<div class="container_za_saltanje">
+  <router-outlet></router-outlet>
+</div>
+
+<!-- footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 mt-4">
+
+  <!--Copyright-->
+  <div class="footer-copyright py-3 text-center " style="color: black;" id="cpr">
+      © 2018 Copyright:
+      <a style="color:  black;">Kuća cveća "Cataleya". Sva prava zadržana. </a>
+  </div>
+  <!--/Copyright-->
+
+</footer>

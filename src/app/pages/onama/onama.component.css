@@ -1,0 +1,37 @@
+.carousel-item{
+    width:100%;
+    height:33rem;
+}
+
+.slajder-slike{
+    width:100%;
+    height: 33rem;
+    margin: 15px;
+}
+
+.carousel-item{
+    height:auto;
+    
+}   
+.slajder-slike{
+    height:auto;
+    
+}
+p,h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.opisPoslovnice p{
+    margin-top: 15px;
+    font-style: normal;
+    font-size: x-large;
+    font-weight: 100;
+
+}
+#textOnama h1{
+    color: #ee8b00;
+    margin: 0 0 4px 0;
+    font-weight: 400; 
+    text-align: center;
+}

@@ -1,0 +1,169 @@
+.lista_cveca{
+    padding-top: 50px;
+}
+.heading{
+    color:   #daa520;
+    text-decoration: underline overline dotted black;
+    line-height: 0.02;
+    text-align: center;
+
+}
+  .heading span {
+    display: inline-block;
+    position: relative;  
+  }
+  .heading span:before,
+  .heading span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid darkcyan;
+    border-top: 1px solid #daa520;
+    top: 0;
+    width: 600px;
+  }
+  .heading span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .heading span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  .prvi_box{
+    width: 35%;
+    border-style: double;
+    border-color: #daa520;
+  }
+  .prvi_box img{
+     width: 100%;
+     
+  }
+ .red_box{
+  padding-top: 50px;
+  display: flex;
+ }
+ .detalji_cveta{
+  padding-left: 5px;
+  text-align: center;
+ }
+.slika_cveta{
+  width: auto;
+}
+.col-1-wrap .product-banners {
+  padding: 0;
+  margin-bottom: 11px;
+  padding: 0 6px 0 0;
+ 
+}
+.product-banners{
+  max-width: min-content;
+}
+.reklamica{
+  background: #faf3e3;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.product-banners h3{
+  color: #472007;
+  font-family: initial;
+  font-size: 28px;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.1;
+}
+ 
+ .pro-banner-1 {
+  padding: 43px 37px 49px 15px;
+  background-size: contain;
+  display: block;
+  background: #faf3e3 url(https://www.cvecara-online.com/images/bucket.png) no-repeat right 6px;
+}
+.btn-default {
+  color: #fff;
+  background-color: #faa834;
+  margin-bottom: 15px;
+  border-radius: .65rem;
+}
+.btn{
+  display: inline-block;
+  padding: 7px 22px 8px 23px;
+}
+.lista_cveca .product-banners {
+  padding: 0;
+  margin-bottom: 11px;
+  display: inline;
+}
+.product-banner-wrap {
+  background: url(https://www.cvecara-online.com/images/banner-stripes.jpg) no-repeat 0 -44px;
+  background-size: cover;
+  margin-top: 30px;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 970px;
+}
+.top-product-row .product-items {
+  min-height: 504px;
+  width: 100%;
+  opacity: 1;
+  text-align: center;
+  margin-top: 30px;
+}
+.top-product-row .product-items .product-item {
+  width: 40%;
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin-bottom: 1em;
+  position: relative;
+  text-align: center;
+  width: 30%;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  margin: 0;
+  border: none;
+  padding: 0 16px;
+  box-sizing: border-box;
+  z-index: 9;
+}
+
+.text-center {
+  text-align: center;
+}
+.head-title {
+  margin-bottom: 10px;
+}
+.head-title h1 {
+  margin: 0;
+  color:#472007;
+  margin: 0 0 4px 0;
+  font-weight: 400;
+  font-size: 36px;
+}
+.head-title p {
+  font-size: 20px;
+  color: #850119;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+.product-item:hover{
+  transform: scale(1.3);
+}
+.banner img:hover {
+transform: scale(1.25); 
+}
+.product-item img{
+  min-width: -webkit-fill-available;
+  max-width: -webkit-fill-available;
+
+}
+.product-item{
+  margin-top: 15px;
+}

@@ -1,0 +1,45 @@
+.conteiner{
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: -webkit-center;
+    background-color: #fff;
+}
+#mapa_div,#podaci_kontakt h1{
+    color: #ee8b00;
+    margin: 0 0 4px 0;
+    font-weight: 400; 
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    font-style: oblique;
+}
+ 
+.mapa{
+    margin-top:5%;
+}
+.map{
+
+    width:80%;
+    height:30rem;
+    margin-left:10%;
+}
+
+.lo{
+    text-align: justify;
+    width:10rem;
+
+}
+.map{
+     height:20rem;
+}   
+    
+
+.lo{   
+    margin-left: 18%;
+    font-size: 10px;
+}   
